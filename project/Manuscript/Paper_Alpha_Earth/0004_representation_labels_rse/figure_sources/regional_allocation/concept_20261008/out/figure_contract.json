@@ -1,0 +1,13 @@
+{
+  "width_mm": 182,
+  "height_mm": 169,
+  "font": "Arial",
+  "min_font_pt": 5.5,
+  "empirical": "Panel b: Belgium BE_F1 repeat 0 sampling maps",
+  "schematic": "Panel a source/target role matrix; panel c synthetic feature spaces and hypothesis curves",
+  "scenarios": {
+    "A": "0 + 50/100/200/400",
+    "B": "100 + 100/300; EXT/SRS/regional allocation"
+  },
+  "style": "shared nstyle.py; sampling maps follow current Figure 3"
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "origin": "PROJECT/results/quick_pilot/run_from_claude_stdlib.py",
+    "source_sha256": "453bb977df951687cc9b42d0c2e43bc835ebee47e9f374dc8a6692aede1fc790",
+    "reason": "Plain-text run summary misnamed .py; not executable source code. Original file retained."
+  }
+]

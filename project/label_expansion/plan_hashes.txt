@@ -1,0 +1,59 @@
+2026-09-24 01:19 ANALYSIS_PLAN_check2.md sha256[:16]=13a40f0d2a265943 (v1 frozen before rerun)
+2026-09-24 09:47 ANALYSIS_PLAN_check3.md sha256[:16]=08b3d2710f0aefa7 (before check3 training)
+2026-09-24 10:10 ANALYSIS_PLAN_check3_rev1.md sha256[:16]=fc6aeffdd8bd0a81 (rev1, before viewing any check3 results)
+2026-09-24 14:44 ANALYSIS_PLAN_stageA.md sha256[:16]=1563b35833105e7d (before stage0)
+2026-09-24 15:53 ANALYSIS_PLAN_stageA_rev1.md sha256[:16]=c3133324d19ade62 (before stage A main run)
+2026-09-24 16:54 r*(50)=50, r*(1000)=50 selected by pre-registered rule (grid max; boundary noted)
+2026-09-24 18:47 ANALYSIS_PLAN_guidance.md sha256[:16]=ff55edf89528dd07 (G experiment frozen before any G training on real data; smoke test with 5 trees only checked runtime)
+2026-09-25 08:48 ANALYSIS_PLAN_guidance_rev1.md sha256[:16]=3ee376b498ed1b2d (post hoc, written AFTER viewing G tier 1+2 results and adversarial verification; before running ORACLE2 / RAWZ / NATIVE)
+2026-09-27 11:05 ANALYSIS_PLAN_guidance_rev2.md sha256[:16]=2589217a7f2f2ae9 (rev2 multi-learner robustness; frozen after code review, before any production run)
+2026-09-27 11:05 multilearner_G.py sha256[:16]=f32183af651d337a (rev2 multi-learner robustness; frozen after code review, before any production run)
+2026-09-27 11:05 analyze_ML.py sha256[:16]=ee5fad2732057aed (rev2 multi-learner robustness; frozen after code review, before any production run)
+2026-09-27 11:05 multilearner manifest (880 selections, subset of tier1_sel_index.csv 66252ed9025cb7a4) sha256[:16]=5d196f93d945db2d
+2026-09-27 11:56 ANALYSIS_PLAN_guidance_rev3.md sha256[:16]=6dac580ff2b54a9e (rev3: disclosure addendum + supplementary estimands; frozen before anyone viewed MLP/RF results; LR SRS/k0 rows non-blind since 11:35)
+2026-09-27 11:56 analyze_ML_rev3.py sha256[:16]=776314e09f5ef257 (rev3: disclosure addendum + supplementary estimands; frozen before anyone viewed MLP/RF results; LR SRS/k0 rows non-blind since 11:35)
+2026-09-27 14:48 ANALYSIS_PLAN_guidance_rev4.md sha256[:16]=7e90ccd5b1c3828f (rev4: D1 decision-layer label-efficiency, D2 Cheng-comparable metrics, D3 numbers table; frozen before running any of them)
+2026-09-28 22:28 BETTI_TRANSFER_DIAG_SPEC_2026-09-28.md sha256[:16]=4c8da222b77b0f84 (label-free coverage diagnostic for transfer-aware Betti allocation; frozen before writing any diagnostic code or viewing output)
+2026-09-29 14:55 STEP0_SPEC_2026-09-29.md sha256[:16]=14c8de7365278bac (step 0: biased initial-sample prior simulation (A) + operating-point-aligned retro (B); no training; frozen before any step-0 code or output)
+2026-09-29 16:39 STEP0_ADDENDUM_B2_2026-09-29.md sha256[:16]=0c4b31ebc681b90f (step-0 addendum B2: decomposition of matched-OA label gain into prior information vs remainder; post hoc after viewing step-0 B, frozen before any B2 computation; no training)
+2026-09-29 18:04 PRECONF_ANALYSES_SPEC_2026-09-29.md sha256[:16]=d0906bd1417839d2 (pre-confirmation no-training analyses: AE thread AE1–AE7 + label thread L1–L5; post hoc, C; frozen before any code or output)
+2026-09-29 21:58 PC1_SPEC_2026-09-29.md sha256[:16]=eb82a82b7acea883 (raw-base retro reference for confirm plan v4 draft sha256[:16]=a634f4a83b1b3942; no training; frozen before any PC-1 code or output)
+2026-09-29 22:17 PC-1 output pc1.py sha256[:16]=c84939cd661a6955
+2026-09-29 22:17 PC-1 output pc1_summary.txt sha256[:16]=4556e2c837bbaf32
+2026-09-29 22:17 PC-1 output pc1_rows.csv sha256[:16]=9e47b82a5490e9c6
+2026-09-29 22:17 PC-1 output pc1_power.csv sha256[:16]=5097ae36fc1b6f12
+2026-09-29 22:23 CONFIRM_PLAN_v5.md sha256[:16]=5384fb7efa67f495 (confirmation-run registered plan, FROZEN; two parallel scenarios; H1/H2 confirmatory; author approved 2026-09-29; no confirmation data built or seen)
+2026-09-29 23:41 CONFIRM_PLAN_v5_rev1.md sha256[:16]=cd47a2a6237f01f8 (implementation conventions; written after code review, before building official splits or any training)
+2026-09-29 23:41 confirm/confirm_split.py sha256[:16]=8f8cdbd8e94a6e6b (confirm-run code FROZEN; plan v5 + rev1)
+2026-09-29 23:41 confirm/confirm_run.py sha256[:16]=aff3f11380cd1d27 (confirm-run code FROZEN; plan v5 + rev1)
+2026-09-29 23:41 confirm/analyze_confirm.py sha256[:16]=4dad4750221edcf5 (confirm-run code FROZEN; plan v5 + rev1)
+2026-09-29 23:41 confirm/indep_confirm.py sha256[:16]=3fc47d8bd6e55f34 (confirm-run code FROZEN; plan v5 + rev1)
+2026-09-29 23:41 confirm/crosscheck_confirm.py sha256[:16]=f0f0df78a155c1a6 (confirm-run code FROZEN; plan v5 + rev1)
+2026-09-29 23:41 confirm/test_confirm_run.py sha256[:16]=247e2e4e84c251d9 (confirm-run code FROZEN; plan v5 + rev1)
+2026-09-29 23:41 confirm/test_analyze_confirm.py sha256[:16]=08e8bc534e23069c (confirm-run code FROZEN; plan v5 + rev1)
+2026-09-29 23:41 confirm/test_indep_ka.py sha256[:16]=554bff40b5d25f98 (confirm-run code FROZEN; plan v5 + rev1)
+2026-09-30 08:49 CONFIRMATION RUN APPROVED by author (2026-09-30 '开始正式运行'); starting official split build (G3)
+2026-09-30 08:50 split_manifest.csv sha256[:16]=96fa1134f24b966a (official confirmation splits G3: 22 units, all feasible, assertions 1-7 passed; before any training)
+2026-09-30 08:50 G6 blinded training started: lgb (5 jobs x 2 threads) then rf (4 jobs x 2 threads)
+2026-09-30 15:29 G6 training finished
+2026-09-30 15:30 G7 integrity/structure check started (lgb 1540 ok, rf 176 ok, 0 failed, 0 retries)
+2026-09-30 15:31 G7 structure check PASSED; running the one-shot formal analysis (analyze_confirm.py)
+2026-09-30 15:31 analysis output a2_ratio.csv sha256[:16]=797940ffc86e27ad (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output country_values.csv sha256[:16]=81399d83cda7bf28 (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output estimates.csv sha256[:16]=40efd51e47d9f2d0 (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output fill_table.csv sha256[:16]=c428cf92d4900c9c (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output summary.txt sha256[:16]=e3b47997a94d15f6 (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output tests.csv sha256[:16]=8ea754c362a6946e (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output unit_rows.csv sha256[:16]=26570b7358b5052f (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output x2_position.csv sha256[:16]=903ab6cb74c959c9 (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output x3_cost.csv sha256[:16]=315ddba7489b20c0 (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analysis output x3_equiv.csv sha256[:16]=c6c9bd88d0cef938 (one-shot formal analysis, registered immediately)
+2026-09-30 15:31 analyze_formal.log sha256[:16]=cabd83265a7d218f
+2026-09-30 15:31 indep/crosscheck output indep_country.csv sha256[:16]=7cec91ccc2749187
+2026-09-30 15:31 indep/crosscheck output indep_estimates.csv sha256[:16]=473666dcbc2b7b1b
+2026-09-30 15:31 indep/crosscheck output indep_summary.txt sha256[:16]=42fa5261a825cc3b
+2026-09-30 15:31 indep/crosscheck output indep_tests.csv sha256[:16]=1121cdb6dabb6bb3
+2026-09-30 15:31 indep/crosscheck output indep_unit.csv sha256[:16]=f86a417d194a4003
+2026-09-30 15:31 indep/crosscheck output indep_formal.log sha256[:16]=347f0730d76d321d
+2026-09-30 15:31 indep/crosscheck output crosscheck_formal.log sha256[:16]=ed3c3c95142591eb
+2026-09-30 15:32 G7 COMPLETE: one-shot analysis + independent recomputation + crosscheck all consistent (max |diff| 5e-14). H1 +2.34 [1.54,3.14] reject; H2 +5.37 [2.01,8.73] reject (Holm).

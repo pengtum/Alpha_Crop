@@ -1,0 +1,42 @@
+{
+  "backend": "Python / Matplotlib",
+  "width_mm": 183,
+  "article_display_width_mm": 160,
+  "minimum_font_pt": 6,
+  "article_minimum_font_pt": 5.245901639344262,
+  "formats": [
+    "PDF",
+    "SVG",
+    "PNG 300 dpi",
+    "TIFF 600 dpi"
+  ],
+  "figure1": {
+    "claim": "Parcel-level crop reference records underpin an uneven cross-country label inventory.",
+    "panels": {
+      "a": "All paired parcel centroids in 10-km cells",
+      "b": "2021 orthophoto and recorded boundaries",
+      "c": "Same parcels classified; traceable P1 record",
+      "d": "Country class shares transposed to align with totals",
+      "e": "Pooled counts, log scale"
+    },
+    "comparable_geometry": [
+      "b/c equal square extents",
+      "d/e identical class rows"
+    ],
+    "height_mm": 184
+  },
+  "figure2": {
+    "claim": "A shared parcel feature workflow supports paired representation and local-label experiments.",
+    "panels": {
+      "a": "Actual saved centroid, schematic neighbourhood, feature dimensions",
+      "b": "Each target country rotated among ten sources",
+      "c": "Zero-label and existing-survey sampling",
+      "d": "Representation and label-count conceptual relationship"
+    },
+    "layout": "Existing scientific design retained; new preprocessing row above it. Minimum font raised to 6 pt.",
+    "height_mm": 199.5
+  },
+  "data_integrity": "Reuse cached source tables, ROI polygons, saved centroid and unaltered official orthophoto. No new training, extraction or synthetic observations. Conceptual grid and curves explicitly marked schematic.",
+  "provenance": "See ../parcel_reference_20261011/source_data/metadata.json and existing source tables.",
+  "manuscript": "Replace only figures 1 and 2, captions and their references; keep ten figures."
+}

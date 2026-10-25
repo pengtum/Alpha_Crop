@@ -1,0 +1,39 @@
+{
+  "backend": "python",
+  "style": "Existing RSE manuscript style: Arial, 6.5 pt body, 8 pt panel labels, teal AE and neutral grey S2",
+  "width_mm": 183,
+  "formats": [
+    "PDF",
+    "SVG",
+    "PNG 300 dpi",
+    "TIFF 600 dpi"
+  ],
+  "role": "Data and method illustration; no inference on accuracy or prevalence",
+  "figures": {
+    "parcel_labels": {
+      "claim": "Each crop reference is a geographic parcel record carrying a reported crop identity, subsequently harmonised into an analysis class.",
+      "panels": {
+        "a": "Actual 2021 orthophotography and recorded field boundaries",
+        "b": "Same extent with crop classes and a traceable highlighted label record"
+      },
+      "archetype": "image plate + labelled parcel map"
+    },
+    "centroid_features": {
+      "claim": "The same parcel reference is paired with AE and S2 features through centroid sampling of neighbourhood summary images.",
+      "panels": {
+        "a": "Real polygon, saved centroid and nominal neighbourhood",
+        "b": "Magnified neighbourhood with explicitly schematic pixel grid",
+        "c": "Spatial mean and standard deviation per input channel, giving 128 AE and 168 S2 features"
+      },
+      "archetype": "schematic-led composite"
+    }
+  },
+  "integrity": {
+    "selection": "A geographically selected Flanders site, not selected by model accuracy; all source parcels intersecting the selected map window retained",
+    "orthophoto": "Official 2021 winter mosaic; visual context only, not model inputs or source of labels",
+    "centroid": "Saved production coordinates checked against raw polygon centroid in WGS84",
+    "kernel": "Code uses a circular 3-pixel neighbourhood; 30 m and 10 m grid are nominal illustrative geometry, not reconstruction of Earth Engine pixel registration",
+    "statistics": "None; dimensional counts from extraction code; no synthetic quantitative feature values"
+  },
+  "placement": "Two reviewable figure candidates; manuscript layout not changed in this turn"
+}

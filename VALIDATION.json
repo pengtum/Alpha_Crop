@@ -1,0 +1,13 @@
+{
+  "source_files_checked": 902,
+  "python_files_compiled": 827,
+  "errors": [],
+  "passed": true,
+  "training_executed": false,
+  "data_included": false,
+  "python_runtime": "3.12.13",
+  "workspace_configuration_test": "passed in isolated temporary directory",
+  "formal_analysis_frozen_dependencies_present": 7,
+  "frozen_rse_baseline_and_backup": "checksum match",
+  "notebooks_outputs_removed": 3
+}

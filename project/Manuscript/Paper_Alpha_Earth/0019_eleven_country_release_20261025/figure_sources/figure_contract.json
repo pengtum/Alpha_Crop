@@ -1,0 +1,21 @@
+{
+  "backend": "python",
+  "reuse": "Original plotted estimates, confidence intervals, country values, map parcels and point selections",
+  "data_changes": false,
+  "exclusions_added": false,
+  "minimum_font_pt": 7.5,
+  "main_figures": 10,
+  "supplementary_figures": [
+    "S1"
+  ],
+  "layout": "Compact aligned panels; figures 3, 5, 7, 9, 10 and S1 rearranged for readable text",
+  "formats": [
+    "pdf",
+    "svg",
+    "png",
+    "tiff"
+  ],
+  "alignment_gate": "required before export",
+  "static_qa": "Shared nstyle.py and layout_readability.py included in combined_source_preflight",
+  "revision": "Display labels only: signed BA differences use ΔBA (%), OA differences use ΔOA (%); original values, data and intervals preserved."
+}
