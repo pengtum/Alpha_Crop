@@ -1,6 +1,6 @@
-# Earth embeddings and local-label budgets for cross-border crop mapping
+# Alpha_Crop
 
-Research code accompanying **Earth embeddings improve cross-border crop mapping under limited local-label budgets**, by Jingwei Zhu, Peng Luo and Jonathan Li. Release prepared on 25 October 2026 for manuscript v19.
+Code for cross-border crop mapping with AlphaEarth embeddings and Sentinel-2 features, including local-label acquisition, survey expansion and sampling strategies.
 
 This repository contains the code, analysis plans and plotting workflow. Obtain crop reference records from **EuroCrops v11** and satellite inputs from **Google Earth Engine**. No parcel records, extracted features, trained models, predictions or result tables are bundled.
 
@@ -68,10 +68,6 @@ Figure input tables and geographic inputs are generated or acquired locally; the
 
 The release was checked for file integrity, Python syntax, empty notebook outputs and excluded data formats. The workspace configuration helper was tested in a temporary directory. This packaging step did not rerun the scientific experiments or establish end-to-end reproducibility from a fresh GEE download.
 
-## Citation and contact
-
-Jingwei Zhu, Peng Luo and Jonathan Li. *Earth embeddings improve cross-border crop mapping under limited local-label budgets*. Manuscript, 2026. No publication DOI has been assigned in this release.
-
-Correspondence: peng-luo@uiowa.edu; jli@geoai.ecnu.edu.cn.
+## Additional documentation
 
 See [RIGHTS.md](RIGHTS.md) for code rights and third-party attribution. AI assistance in writing and analytical coding is described in [AI_USE.md](AI_USE.md).

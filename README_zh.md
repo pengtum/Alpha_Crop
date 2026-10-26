@@ -1,6 +1,6 @@
-# Alpha_Crops 科研代码
+# Alpha_Crop
 
-对应论文：**Earth embeddings improve cross-border crop mapping under limited local-label budgets**。本目录仅整理代码、分析方案和说明文档，不包含原始数据、特征表、模型、预测结果或制图数据。
+用于比较 AlphaEarth 嵌入表征与 Sentinel-2 特征在跨国作物制图中的表现，并评估本地标签采集、已有调查扩充及采样策略。本目录包含代码、分析方案和说明文档，不包含原始数据、特征表、模型、预测结果或制图数据。
 
 数据来源为 EuroCrops v11 和 Google Earth Engine。下载、预处理和运行步骤见 [数据说明](docs/DATA_AND_PREPROCESSING.md) 与 [实验索引](docs/EXPERIMENTS.md)。
 
